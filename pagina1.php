@@ -64,11 +64,8 @@ session_start();
 	<h3>TABLA</h3>
 	<ul>
 		<?php 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> uno
 $conexio= mysqli_connect("localhost","root","");
 
 $_SESSION['basedatos'];
@@ -104,11 +101,7 @@ $sq="SHOW FULL TABLES FROM $b";
 	<ul></ul>
 </div>
 
-<<<<<<< HEAD
-    <form action="principal2.php">
-=======
     <form action="pagina12.php">
->>>>>>> uno
       <div class='boton'>  <input type='submit' value='Siguiente'  style='width:100px; height:55px; border-radius: 3px;color: blue' / >
     </form></div>
 
